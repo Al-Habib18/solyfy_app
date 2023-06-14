@@ -1,0 +1,45 @@
+{
+    "name": "solyfy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "sowagger.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon src/main.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.20.2",
+        "cloudinary": "^1.37.1",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "data-fns": "^1.1.0",
+        "dotenv": "^16.1.4",
+        "express": "^4.18.2",
+        "express-async-errors": "^3.1.1",
+        "express-fileupload": "^1.4.0",
+        "express-rate-limit": "^6.7.0",
+        "fs": "^0.0.1-security",
+        "helmet": "^7.0.0",
+        "hpp": "^0.2.3",
+        "http-status": "^1.6.2",
+        "jsonwebtoken": "^9.0.0",
+        "jwt-simple": "^0.5.6",
+        "mongoose": "^7.2.3",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.5-lts.1",
+        "nodemailer": "^6.9.3",
+        "openapi-validator-middleware": "^3.2.6",
+        "path": "^0.12.7",
+        "swagger-autogen": "^2.23.1",
+        "swagger-ui-express": "^4.6.3",
+        "validator": "^13.9.0",
+        "xss-clean": "^0.1.4",
+        "yamljs": "^0.3.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}
